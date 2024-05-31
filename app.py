@@ -1,5 +1,9 @@
+# a rock paper scissors game using python with GitHub Copilot
+
+# create random module to simulate computer’s actions
 import random
 
+# create dictionary to define the winning conditions using "rock": "paper": "scissors": scenarios and compare the user’s choice with the computer’s choice to determine the winner
 def main():
     rules = {
         "rock": "scissors",
